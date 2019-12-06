@@ -135,6 +135,9 @@ a:hover {
     img {
         padding: 10px;
     }
+    footer {
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -164,5 +167,8 @@ a:hover {
     }
     textarea, input[type="text"] {
         width: 90%;
+    }
+    footer {
+        position: relative;
     }
 }
