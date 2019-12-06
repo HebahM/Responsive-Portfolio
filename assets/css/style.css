@@ -118,7 +118,25 @@ a:hover {
     body {
         margin: 0;
     }
-    textarea {
-        width: 480px;
+}
+
+@media screen and (max-width: 768px) {
+    section#main {
+        width: auto;
+        margin-right: 20px;
     }
+    div#subhead {
+        width: auto;
+    }
+    textarea {
+        width: auto;
+        padding-right: 30px;
+    }
+    img {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
 }
