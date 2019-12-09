@@ -137,6 +137,7 @@ a:hover {
     }
     footer {
         position: relative;
+        bottom: 0;
     }
 }
 
@@ -166,8 +167,5 @@ a:hover {
     }
     textarea, input[type="text"] {
         width: 90%;
-    }
-    footer {
-        position: relative;
     }
 }
