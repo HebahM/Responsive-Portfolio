@@ -104,7 +104,24 @@ footer {
 a:hover {
     color: #4aaaa5;
 }
+div.portImg {
+    width: 300px;
+}
+img.myWork {
+    border: 1px solid #dddddd;
+}
 
+div.portImg h3 {
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: .75%;
+    /* top: 50%;
+    left: 25.7%;
+    transform: translate(-50%, -50%); */
+    padding: 10px 56px 10px 56px;
+}
 @media screen and (max-width: 980px) {
     section#main {
         width: 600px;
